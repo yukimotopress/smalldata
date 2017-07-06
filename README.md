@@ -109,9 +109,14 @@ CSV - INI - TOML- JSON - YAML - XML
 
 # Part VII: Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats
 
-- Football.db
-- Beer.db
-- World.db
+# Football.db
+
+{% include_relative design/football-starter.md %}
+
+# Beer.db
+
+
+# World.db
 
 
 
