@@ -6,8 +6,6 @@
 _Working with (Structured) Data (in Plain Text) the Modern Way_
 
 
-Welcome.
-
 Contents:
 
 - I: Data Formats - (Rich) Structured Data in Plain Text
