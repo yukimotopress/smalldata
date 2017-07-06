@@ -69,11 +69,9 @@ CSV - INI - TOML- JSON - YAML - XML
 
 # Microformats
 
-# Web Feeds
+{% include_relative web/feedparser.md %}
 
-- RSS / Atom
-
-- Feed.TXT
+# Feed.TXT
  
 
 # Part IV: Wikipedia
