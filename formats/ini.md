@@ -1,6 +1,6 @@
 # INI
 
-Use the `iniparser` library to read / parse INI configuration, setttings and data files into a hash.
+Use the `iniparser` library (github: [`datatxt/iniparser`](https://github.com/datatxt/iniparser)) to read / parse INI configuration, setttings and data files into a hash.
 
 ## Usage - `INI.load`, `INI.load_file`
 
@@ -89,5 +89,4 @@ puts hash['http://example.com']['title3']
 
 ## References
 
-- [iniparser library @ GitHub](https://github.com/datatxt/iniparser)
 - [INI @ Wikipedia](https://en.wikipedia.org/wiki/INI_file)
