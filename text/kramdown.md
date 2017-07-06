@@ -152,30 +152,6 @@ Command line options:
 
 kramdown options:
 
-        --template ARG
-          The name of an ERB template file that should be used to wrap the output
-          or the ERB template itself.
-          
-          This is used to wrap the output in an environment so that the output can
-          be used as a stand-alone document. For example, an HTML template would
-          provide the needed header and body tags so that the whole output is a
-          valid HTML file. If no template is specified, the output will be just
-          the converted text.
-          
-          When resolving the template file, the given template name is used first.
-          If such a file is not found, the converter extension (the same as the
-          converter name) is appended. If the file still cannot be found, the
-          templates name is interpreted as a template name that is provided by
-          kramdown (without the converter extension). If the file is still not
-          found, the template name is checked if it starts with 'string://' and if
-          it does, this prefix is removed and the rest is used as template
-          content.
-          
-          kramdown provides a default template named 'document' for each converter.
-          
-          Default: ''
-          Used by: all converters
-
         --[no-]auto-ids
           Use automatic header ID generation
           
@@ -183,43 +159,6 @@ kramdown options:
           generated if no ID is explicitly specified.
           
           Default: true
-          Used by: HTML/Latex converter
-
-        --[no-]auto-id-stripping
-          Strip all formatting from header text for automatic ID generation
-          
-          If this option is `true`, only the text elements of a header are used
-          for generating the ID later (in contrast to just using the raw header
-          text line).
-          
-          This option will be removed in version 2.0 because this will be the
-          default then.
-          
-          Default: false
-          Used by: kramdown parser
-
-        --auto-id-prefix ARG
-          Prefix used for automatically generated header IDs
-          
-          This option can be used to set a prefix for the automatically generated
-          header IDs so that there is no conflict when rendering multiple kramdown
-          documents into one output file separately. The prefix should only
-          contain characters that are valid in an ID!
-          
-          Default: ''
-          Used by: HTML/Latex converter
-
-        --[no-]transliterated-header-ids
-          Transliterate the header text before generating the ID
-          
-          Only ASCII characters are used in headers IDs. This is not good for
-          languages with many non-ASCII characters. By enabling this option
-          the header text is transliterated to ASCII as good as possible so that
-          the resulting header ID is more useful.
-          
-          The stringex library needs to be installed for this feature to work!
-          
-          Default: false
           Used by: HTML/Latex converter
 
         --[no-]parse-block-html
@@ -242,33 +181,6 @@ kramdown options:
           Default: true
           Used by: kramdown parser
 
-        --[no-]html-to-native
-          Convert HTML elements to native elements
-          
-          If this option is `true`, the parser converts HTML elements to native
-          elements. For example, when parsing `<em>hallo</em>` the emphasis tag
-          would normally be converted to an `:html` element with tag type `:em`.
-          If `html_to_native` is `true`, then the emphasis would be converted to a
-          native `:em` element.
-          
-          This is useful for converters that cannot deal with HTML elements.
-          
-          Default: false
-          Used by: kramdown parser
-
-        --link-defs ARG
-          Pre-defines link definitions
-          
-          This option can be used to pre-define link definitions. The value needs
-          to be a Hash where the keys are the link identifiers and the values are
-          two element Arrays with the link URL and the link title.
-          
-          If the value is a String, it has to contain a valid YAML hash and the
-          hash has to follow the above guidelines.
-          
-          Default: {}
-          Used by: kramdown parser
-
         --footnote-nr ARG
           The number of the first footnote
           
@@ -277,18 +189,6 @@ kramdown options:
           
           Default: 1
           Used by: HTML converter
-
-        --entity-output ARG
-          Defines how entities are output
-          
-          The possible values are :as_input (entities are output in the same
-          form as found in the input), :numeric (entities are output in numeric
-          form), :symbolic (entities are output in symbolic form if possible) or
-          :as_char (entities are output as characters if possible, only available
-          on Ruby 1.9).
-          
-          Default: :as_char
-          Used by: HTML converter, kramdown converter
 
         --toc-levels ARG
           Defines the levels that are used for the table of contents
@@ -299,21 +199,6 @@ kramdown options:
           
           Default: 1..6
           Used by: HTML/Latex converter
-
-        --line-width ARG
-          Defines the line width to be used when outputting a document
-          
-          Default: 72
-          Used by: kramdown converter
-
-        --latex-headers ARG
-          Defines the LaTeX commands for different header levels
-          
-          The commands for the header levels one to six can be specified by
-          separating them with commas.
-          
-          Default: section,subsection,subsubsection,paragraph,subparagraph,subparagraph
-          Used by: Latex converter
 
         --smart-quotes ARG
           Defines the HTML entity names or code points for smart quote output
@@ -326,24 +211,6 @@ kramdown options:
           Default: lsquo,rsquo,ldquo,rdquo
           Used by: HTML/Latex converter
 
-        --[no-]remove-block-html-tags
-          Remove block HTML tags
-          
-          If this option is `true`, the RemoveHtmlTags converter removes
-          block HTML tags.
-          
-          Default: true
-          Used by: RemoveHtmlTags converter
-
-        --[no-]remove-span-html-tags
-          Remove span HTML tags
-          
-          If this option is `true`, the RemoveHtmlTags converter removes
-          span HTML tags.
-          
-          Default: false
-          Used by: RemoveHtmlTags converter
-
         --header-offset ARG
           Sets the output offset for headers
           
@@ -354,64 +221,7 @@ kramdown options:
           Default: 0
           Used by: HTML converter, Kramdown converter, Latex converter
 
-        --[no-]hard-wrap
-          Interprets line breaks literally
-          
-          Insert HTML `<br />` tags inside paragraphs where the original Markdown
-          document had newlines (by default, Markdown ignores these newlines).
-          
-          Default: true
-          Used by: GFM parser
-
-        --syntax-highlighter ARG
-          Set the syntax highlighter
-          
-          Specifies the syntax highlighter that should be used for highlighting
-          code blocks and spans. If this option is set to +nil+, no syntax
-          highlighting is done.
-          
-          Options for the syntax highlighter can be set with the
-          syntax_highlighter_opts configuration option.
-          
-          Default: coderay
-          Used by: HTML converter
-
-        --syntax-highlighter-opts ARG
-          Set the syntax highlighter options
-          
-          Specifies options for the syntax highlighter set via the
-          syntax_highlighter configuration option.
-          
-          The value needs to be a hash with key-value pairs that are understood by
-          the used syntax highlighter.
-          
-          Default: {}
-          Used by: HTML converter
-
-        --math-engine ARG
-          Set the math engine
-          
-          Specifies the math engine that should be used for converting math
-          blocks/spans. If this option is set to +nil+, no math engine is used and
-          the math blocks/spans are output as is.
-          
-          Options for the selected math engine can be set with the
-          math_engine_opts configuration option.
-          
-          Default: mathjax
-          Used by: HTML converter
-
-        --math-engine-opts ARG
-          Set the math engine options
-          
-          Specifies options for the math engine set via the math_engine
-          configuration option.
-          
-          The value needs to be a hash with key-value pairs that are understood by
-          the used math engine.
-          
-          Default: {}
-          Used by: HTML converter
+          ...
 ```
 
 Yes, it's well documented. Welcome to the wonders of `kramdown`.
