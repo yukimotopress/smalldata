@@ -10,87 +10,87 @@ Welcome.
 
 
 
-## Data Formats - (Rich) Structured Data in Plain Text
+# Part I: Data Formats - (Rich) Structured Data in Plain Text
 
 CSV - INI - TOML- JSON - YAML - XML
 
-### CSV
+# CSV
 
 - "Classic" CSV 
 
 - "Mordern" CSV - CSV 1.1
 
 
-### INI
-
 {% include_relative formats/ini.md %}
 
 
-### TOML
+# TOML
 
 
-### JSON
-### YAML
+# JSON
 
-### XML
-
+{% include_relative formats/jsonnext.md %}
 
 
+# YAML
 
-## Text Formatting - (Rich) Structured Text 
 
-### Markdown
+# XML
+
+
+
+
+# Part II: Text Formatting - (Rich) Structured Text 
+
+# Markdown
 
 - Kramddown
 - Commonmark
 
 
-### LaTeX
+# LaTeX
 
-### Others
-
-
+# Others
 
 
-## Web Formats
 
-### HTML
 
-### Microformats
+# Part III: Web Formats
 
-### Web Feeds
+# HTML
+
+# Microformats
+
+# Web Feeds
 
 - RSS / Atom
+
 - Feed.TXT
  
 
-
-## Case Study - World Factbook.json - Country Profiles
-
-
-
-
-
-## Wikipedia
+# Part IV: Wikipedia
 
 - Wikitext
 - Infobox
 
 
 
-## Data Packages
+## Part V: Data Packages
+
 
 - Frictionless Data
+- In-Memory SQLite Database
+- Git / GitHub for Data
+  - The "New" Data Package - The "New" .ZIP Package
+
+
+# Part VI: Real World Case Studies
+
+- World Factbook.json - Country Profiles
 
 
 
-## In-Memory SQL Database
-
-- SQLite
-
-
-
-## "Custom" Data Formats
+# Part VII: Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats
 
 - Football.db
 - Beer.db
@@ -99,8 +99,15 @@ CSV - INI - TOML- JSON - YAML - XML
 
 
 
-## Git / GitHub for Data
+# Meta
 
-- The "New" Data Package - The "New" .ZIP Package
- 
+## License
 
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
+The Small Data Book text and scripts are dedicated to the public domain.
+Use it as you please with no restrictions whatsoever.
+
+## Questions? Comments?
+
+Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
