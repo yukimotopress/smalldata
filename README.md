@@ -8,6 +8,16 @@ _Working with (Structured) Data (in Plain Text) the Modern Way_
 
 Welcome.
 
+Contents:
+
+- I: Data Formats - (Rich) Structured Data in Plain Text
+- II: Text Formatting - (Rich) Structured Text 
+- III: Web Formats
+- IV: Wikipedia
+- V: Data Packages
+- VI: Real World Case Studies
+- VII: Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats
+
 
 
 # Part I: Data Formats - (Rich) Structured Data in Plain Text
@@ -93,7 +103,9 @@ CSV - INI - TOML- JSON - YAML - XML
 
 # Part VI: Real World Case Studies
 
-- World Factbook.json - Country Profiles
+
+{% include_relative casestudies/factbook.md %}
+
 
 
 
