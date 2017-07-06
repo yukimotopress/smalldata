@@ -87,8 +87,8 @@ pp page.resources         ## same as page['Geography'][Natural resources']['text
 ...
 ```
 
-See [`data/attributes.yml`](data/attributes.yml) for the full listing of all built-in attribute shortcut accessors.
-See [Attributes](ATTRIBUTES.md) for a quick reference listing.
+See [`data/attributes.yml`](https://github.com/factbook/factbook/blob/master/data/attributes.yml) for the full listing of all built-in attribute shortcut accessors.
+See [Attributes](https://github.com/factbook/factbook/blob/master/ATTRIBUTES.md) for a quick reference listing.
 
 
 ### Save to disk as JSON
@@ -171,7 +171,7 @@ assert_equal  45, Factbook.codes.countries.europe.size
 ...
 ```
 
-See [`data/codes.csv`](data/codes.csv) for the built-in listing of all codes with categories and regions.
+See [`data/codes.csv`](https://github.com/factbook/factbook/blob/master/data/codes.csv) for the built-in listing of all codes with categories and regions.
 
 
 
