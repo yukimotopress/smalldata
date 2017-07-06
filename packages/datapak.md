@@ -1,6 +1,7 @@
 # Working with Tabular Data Packages
 
-Use the `datapak` library to work with tabular data packages (*.csv files w/ datapackage.json)
+Use the `datapak` library (github: [`textkit/datapak`](https://github.com/textkit/datapak)) 
+to work with tabular data packages (*.csv files w/ datapackage.json).
 
 
 ## Usage
