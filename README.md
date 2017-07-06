@@ -78,10 +78,17 @@ CSV - INI - TOML- JSON - YAML - XML
 ## Part V: Data Packages
 
 
-- Frictionless Data
-- In-Memory SQLite Database
-- Git / GitHub for Data
-  - The "New" Data Package - The "New" .ZIP Package
+# Frictionless Data
+
+{% include_relative packages/datapak.md %}
+
+
+# In-Memory SQLite Database
+
+# Git / GitHub for Data
+
+- The "New" Data Package - The "New" .ZIP Package
+
 
 
 # Part VI: Real World Case Studies
