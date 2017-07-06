@@ -126,6 +126,5 @@ resulting in:
 
 ## References
 
-- [jasony library @ GitHub](https://github.com/datatxt/jasony)
 - More JSON Formats, See the [Awesome JSON (What's Next?)](https://github.com/datatxt/awesome-json-next) collection / page.
 
