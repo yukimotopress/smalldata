@@ -50,10 +50,10 @@ CSV - INI - TOML- JSON - YAML - XML
 
 # Part II: Text Formatting - (Rich) Structured Text 
 
-# Markdown
 
-- Kramddown
-- Commonmark
+{% include_relative text/kramdown.md %}
+
+# Commonmark
 
 
 # LaTeX
