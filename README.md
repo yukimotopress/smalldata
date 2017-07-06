@@ -111,10 +111,10 @@ CSV - INI - TOML- JSON - YAML - XML
 
 {% include_relative design/football-starter.md %}
 
-# Beer.db
+<!-- beer.db -->
+{% include_relative design/beer.md %}
 
-
-
+<!-- world.db -->
 {% include_relative design/world.md %}
 {% include_relative design/world-models.md %}
 
