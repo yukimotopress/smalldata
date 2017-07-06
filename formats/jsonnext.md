@@ -1,7 +1,7 @@
 # JSON - What's Next? - JSON for Humans
 
 
-Use the `jasony` library to 
+Use the `jasony` library (github: [`datatxt/jasony`](https://github.com/datatxt/jasony)) to 
 read generation y / next generation json versions with comments, unquoted keys, multi-line strings, trailing commas, and more
 
 
