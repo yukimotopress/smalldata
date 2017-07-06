@@ -23,6 +23,9 @@ CSV - INI - TOML- JSON - YAML - XML
 
 ### INI
 
+{% include_relative format/ini.md %}
+
+
 ### TOML
 
 
