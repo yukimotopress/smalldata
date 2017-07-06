@@ -114,21 +114,21 @@ CSV - INI - TOML- JSON - YAML - XML
 # Beer.db
 
 
-# World.db
 
 {% include_relative design/world.md %}
+{% include_relative design/world-models.md %}
 
 
 
 # Meta
 
-## License
+**License**
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
 The Small Data Book text and scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
-## Questions? Comments?
+**Questions? Comments?**
 
 Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
