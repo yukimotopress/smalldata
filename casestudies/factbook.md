@@ -1,6 +1,6 @@
 # World Factbook.json - 250+ Country Profiles
 
-Use the `factbook` library for ready-to-use scripts for the world factbook (get open structured data e.g JSON etc.)
+Use the `factbook` library  (github: [factbook/factbook](https://github.com/factbook/factbook)) for ready-to-use scripts for the world factbook (get open structured data e.g JSON etc.)
 
 
 ## What's the World Factbook?
