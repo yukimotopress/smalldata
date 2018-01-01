@@ -14,7 +14,7 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 - [IV.  Wikipedia](04__Wikipedia)
 - [V.   Data Packages](05__Data_packages)
 - [VI.  Real World Case Studies](06__Case_studies)
-- [VII. Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats](07_Design)
+- [VII. Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats](07__Design)
 
 
 
