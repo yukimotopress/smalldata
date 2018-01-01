@@ -4,130 +4,26 @@
 
 _Working with (Structured) Data (in Text) the Modern Way_
 
+by [Gerald Bauer](https://github.com/geraldb), et al
 
-Contents:
+> Note: Alpha Version / Work-In-Progress
 
-- I: Data Formats - (Rich) Structured Data in Plain Text
-- II: Text Formatting - (Rich) Structured Text 
-- III: Web Formats
-- IV: Wikipedia
-- V: Data Packages
-- VI: Real World Case Studies
-- VII: Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats
+- [I.   Data Formats - (Rich) Structured Data in Plain Text](01__Data_formats)
+- [II.  Text Formatting - (Rich) Structured Text](02__Text_formatting)
+- [III. Web Formats](03__Web_formats)
+- [IV.  Wikipedia](04__Wikipedia)
+- [V.   Data Packages](05__Data_packages)
+- [VI.  Real World Case Studies](06__Case_studies)
+- [VII. Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats](07_Design)
 
 
 
-# Part I: Data Formats - (Rich) Structured Data in Plain Text
 
-CSV - INI - TOML- JSON - YAML - XML
+## Meta
 
-# CSV
-
-- "Classic" CSV 
-
-- "Mordern" CSV - CSV 1.1
-
-
-{% include_relative formats/ini.md %}
-
-
-# TOML
-
-
-# JSON
-
-{% include_relative formats/jsonnext.md %}
-
-
-# YAML
-
-
-# XML
-
-
-
-
-# Part II: Text Formatting - (Rich) Structured Text 
-
-
-{% include_relative text/kramdown.md %}
-
-# Commonmark
-
-
-# LaTeX
-
-# Others
-
-
-
-
-# Part III: Web Formats
-
-# HTML
-
-# Microformats
-
-{% include_relative web/feedparser.md %}
-
-# Feed.TXT
- 
-
-# Part IV: Wikipedia
-
-- Wikitext
-- Infobox
-
-
-
-## Part V: Data Packages
-
-
-# Frictionless Data
-
-{% include_relative packages/datapak.md %}
-
-
-# In-Memory SQLite Database
-
-# Git / GitHub for Data
-
-- The "New" Data Package - The "New" .ZIP Package
-
-
-
-# Part VI: Real World Case Studies
-
-
-{% include_relative casestudies/factbook.md %}
-
-
-
-
-# Part VII: Do-It-Yourself (DIY) - Design Your Own (Structured) Data Formats
-
-# Football.db
-
-{% include_relative design/football-starter.md %}
-
-<!-- beer.db -->
-{% include_relative design/beer.md %}
-
-<!-- world.db -->
-{% include_relative design/world.md %}
-{% include_relative design/world-models.md %}
-
-
-
-# Meta
-
-**License**
+### License
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
-The Small Data Book text and scripts are dedicated to the public domain.
+The Small Data text and scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
-
-**Questions? Comments?**
-
-Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
