@@ -1,9 +1,8 @@
 
-[Small Data Handbook @ GitHub](https://github.com/smalldatabook)
 
 # Small Data Handbook
 
-_Working with (Structured) Data (in Plain Text) the Modern Way_
+_Working with (Structured) Data (in Text) the Modern Way_
 
 
 Contents:
